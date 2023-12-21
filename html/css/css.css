@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    display:flex;
+}
+.title{
+    background-color: aqua;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#container{
+    width: 100%;
+}
+#filtros{
+    width: 20%;
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+}
+#zonaTienda{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.tarjeta{
+    width: calc(25% - 10px);
+    margin:5px;
+    height: 100%;
+    border-radius: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
