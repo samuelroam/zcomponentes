@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./css/css.css">
+    <?php
+    include("./includes/head.php")
+    ?>
 </head>
 <body>
+    <?php
+    include("./includes/nav.php")
+    ?>
     <div id="container">
         <div id="title" class="title flex-center">
             <h1>Compra con estilo</h1>
@@ -18,7 +24,7 @@
             <div id="zonaTienda"class="flex-center">
                 <?php
                 //bucle para repetir tarjetas
-                for ($i=0;$i<18;++$i) {
+                for ($i=0;$i<16;++$i) {
                     print("<div class='tarjeta'>tarjeta $i</div>");
                 };
                 ?>
